@@ -7,7 +7,7 @@
 *	**phpMyAdmin**: Za upravljanje bazom podataka.
 
 **Uputstvo za pokretanje projekta na lokalnoj mašini
-Kloniranje repozitorijuma**
+Kloniranje repozitorijuma** https://github.com/dusanpoleksic/Plan-Putovanja.git
 
 
 **Pokretanje - Backend**
