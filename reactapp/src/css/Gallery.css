@@ -1,0 +1,40 @@
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 30px 20px; 
+}
+ 
+figure {
+  width: calc(25% - 20px); 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  text-align: center; 
+  position: relative; 
+  overflow: hidden; 
+  border-radius: 10px; 
+  transition: transform 0.3s ease; 
+}
+ 
+figure:hover {
+  transform: scale(1.05); 
+}
+ 
+img {
+  max-width: 100%; 
+  height: auto; 
+  transition: transform 0.3s ease;
+}
+ 
+figcaption {
+  margin-top: 10px; 
+  font-style: italic; 
+  color: #666; 
+  transition: opacity 0.3s ease;
+  opacity: 0; 
+}
+ 
+figure:hover figcaption {
+  opacity: 1; 
+}
